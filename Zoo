@@ -1,0 +1,8 @@
+import collections
+x = input().lower()
+nz = x.count('z')
+no = x.count('o')
+if (2 * nz == no):
+    print("Yes")
+else:
+    print("No")
